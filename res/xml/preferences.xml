@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/common_preferences">
+		<ListPreference android:title="@string/photohosting"
+						android:entries="@array/photo_hostings" android:key="photo_hosting"
+						android:summary="Hosting for store you photos and images"
+						android:entryValues="@array/photo_hostings_values"></ListPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/enclosure">
+		<CheckBoxPreference android:key="enable_enclosure"
+							android:title="@string/enable_enclosure"></CheckBoxPreference>
+		<EditTextPreference android:dependency="enable_enclosure"
+							android:key="enclosure_text" android:title="@string/enclosure_value"></EditTextPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

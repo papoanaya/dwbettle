@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent">
+	<LinearLayout android:orientation="vertical"
+				  android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<LinearLayout android:layout_height="wrap_content"
+					  android:orientation="vertical" android:layout_width="fill_parent"
+					  android:layout_marginLeft="3dip" android:layout_marginRight="3dip">
+			<LinearLayout android:layout_height="wrap_content"
+						  android:layout_width="fill_parent" android:orientation="horizontal"
+						  android:gravity="center_vertical" android:layout_marginTop="3dip">
+				<TextView android:layout_width="wrap_content"
+						  android:layout_height="wrap_content" android:text="@string/subject"
+						  android:layout_marginRight="5dip"></TextView>
+				<EditText android:layout_height="wrap_content" android:id="@+id/subjectEditText"
+						  android:layout_width="fill_parent" android:ellipsize="start"
+						  android:maxLength="250" android:inputType="textCapSentences"></EditText>
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+					  android:layout_width="fill_parent" android:orientation="horizontal"
+				>
+			<Button android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:id="@+id/attachButton"
+					android:drawableLeft="@drawable/attach"></Button>
+			<View android:layout_width="fill_parent" android:layout_weight="1"
+				  android:layout_height="1px"></View>
+			<Button android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:id="@+id/userButton"
+					android:drawableLeft="@drawable/lj_user"
+					android:layout_marginRight="-3dp"></Button>
+			<Button android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:id="@+id/ljcutButton"
+					android:drawableLeft="@drawable/lj_cut"
+					android:layout_marginRight="-3dp"
+					></Button>
+
+			<Button android:layout_height="wrap_content" android:id="@+id/linkButton"
+					android:layout_width="wrap_content" android:drawableLeft="@drawable/link"
+					android:layout_marginRight="-3dp"/>
+			<Button android:layout_height="wrap_content" android:id="@+id/boldButton"
+					android:layout_width="wrap_content" android:drawableLeft="@drawable/b"
+					android:layout_marginRight="-3dp"></Button>
+			<Button android:layout_height="wrap_content" android:id="@+id/italicButton"
+					android:layout_width="wrap_content" android:drawableLeft="@drawable/i"
+					android:layout_marginRight="-3dp"></Button>
+			<Button android:layout_height="wrap_content" android:id="@+id/strikeButton"
+					android:layout_width="wrap_content" android:drawableLeft="@drawable/s"></Button>
+		</LinearLayout>
+		<EditText android:layout_width="fill_parent" android:id="@+id/bodyEditText"
+				  android:layout_margin="1px" android:inputType="textCapSentences|textMultiLine"
+				  android:bufferType="editable" android:gravity="top"
+				  android:layout_height="fill_parent" android:layout_weight="1" android:minLines="3"></EditText>
+	</LinearLayout>
+</ScrollView>

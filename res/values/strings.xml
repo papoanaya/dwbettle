@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+	<string name="photohosting">Hosting for photos</string>
+	<string name="enable_enclosure">Leave enclosure</string>
+	<string name="enclosure">Enclosure</string>
+	<string name="location">Location:</string>
+	<string name="tags">Tags:</string>
+	<string name="privacy">Visibility:</string>
+	<string name="post_to">Post to:</string>
+	<string name="subject">Subject:</string>
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="logging_in">Logging in...</string>
+	<string name="login_error">Invalid password or username</string>
+	<string name="common_error">Network error occured</string>
+	<string name="remember_me">Remember me</string>
+	<string name="cancel">Cancel</string>
+	<string name="application_name">LJBeetle</string>
+	<string name="menu_about">About</string>
+	<string name="about_title">About LJBeetle</string>
+	<string name="about_text">2010 © Domnikov Vitaly\ndotcypress@gmail.com\n\nIcons by: Pavel
+		Skripkin\nhttp://skripkin.su/p/\n\n
+		Project homepage:\nhttp://goo.gl/JysCe
+	</string>
+	<string name="login_title">LJBeetle — Login</string>
+	<string name="preferences">Preferences</string>
+	<string name="entry">Post</string>
+	<string name="entry_options">Options</string>
+	<string name="post">Post</string>
+	<string name="clear">Clear</string>
+	<string name="save_draft">Save draft</string>
+	<string name="draft">Draft</string>
+	<string name="success_post_dialog_message">Update successful.\nDo you want to view updated journal?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="sending_post">Sending post...</string>
+	<string name="insert_photo">Pick photo from library</string>
+	<string name="take_photo">Take photo</string>
+	<string name="select_photo_source">Select photo source:</string>
+	<string name="uploading_image">Uploading image...</string>
+	<string name="save_draft_message">Do you want to save current draft?</string>
+	<string name="syncing_upics">Userpics sync...</string>
+	<string name="select_upic">Select userpic:</string>
+	<string name="privacy_public">Public</string>
+	<string name="privacy_friends">Friends Only</string>
+	<string name="privacy_private">Private</string>
+	<string name="draft_journal">Journal: %s</string>
+	<string name="delete">Delete</string>
+	<string name="edit">Edit</string>
+	<string name="cant_locate">Error retrieving current location</string>
+	<string name="privacy_default">Default</string>
+	<string name="logout">Logout</string>
+	<string name="preference_title">LJBeetle — Preferences</string>
+	<string name="common_preferences">Common</string>
+	<string name="livejournal_hosting">LiveJournal</string>
+	<string name="imageshack_hosting">ImageShack</string>
+	<string name="enclosure_value">Enclosure text</string>
+	<string name="ok">OK</string>
+	<string name="insert_cut">Enter lj-cut title:</string>
+	<string name="insert_user">Enter user name:</string>
+	<string name="cut_default_text">Read more...</string>
+	<string name="enter_text">Please, enter text</string>
+	<string name="mood">Mood:</string>
+	<string name="music">Current music:</string>
+	<string name="screen_comments">Comment screening</string>
+	<string name="disable_comments">Disable comments</string>
+	<string name="insert_link">Link url:</string>
+	<string name="insert_text">Link text:</string>
+	<string name="no_text_to_display">No text to display</string>
+	<string name="friendspage">Friends</string>
+</resources>

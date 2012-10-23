@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_height="wrap_content" android:layout_width="fill_parent"
+			  android:orientation="vertical">
+	<TextView android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content"
+			  android:ellipsize="end" android:maxLines="1" android:shadowDx="1" android:shadowDy="1"
+			  android:id="@+id/journalCell" android:shadowRadius="1" android:shadowColor="#CC999999"></TextView>
+	<LinearLayout android:layout_height="wrap_content"
+				  android:layout_width="fill_parent" android:orientation="horizontal">
+
+		<FrameLayout android:layout_height="104px"
+					 android:layout_width="104px" android:layout_margin="2px">
+			<ImageView android:scaleType="center"
+					   android:layout_height="wrap_content" android:layout_width="wrap_content"
+					   android:padding="2px" android:background="#FFFFFFFF"
+					   android:layout_gravity="center" android:id="@+id/upicCell"></ImageView>
+		</FrameLayout>
+		<LinearLayout android:orientation="vertical"
+					  android:layout_width="fill_parent" android:layout_marginLeft="4dip"
+					  android:layout_height="fill_parent">
+			<TextView android:textStyle="bold" android:layout_width="fill_parent"
+					  android:id="@+id/subjectCell" android:layout_height="wrap_content" android:ellipsize="end"
+					  android:maxLines="1" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+					  android:shadowColor="#CC999999"></TextView>
+			<TextView android:layout_height="fill_parent"
+					  android:layout_width="fill_parent" android:layout_marginTop="4dip"
+					  android:id="@+id/bodyCell" android:ellipsize="end"
+					  android:textColor="#FFFFFFFF" android:textSize="11sp"></TextView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

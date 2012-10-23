@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:background="#FFFFFFFF"
+			xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical"
+				  android:layout_height="fill_parent" android:layout_width="240px"
+				  android:paddingLeft="5dip" android:paddingRight="5dip"
+				  android:visibility="visible">
+		<LinearLayout android:layout_height="wrap_content"
+					  android:orientation="horizontal" android:layout_width="fill_parent">
+			<ImageView android:scaleType="center"
+					   android:layout_height="wrap_content" android:layout_width="wrap_content"
+					   android:src="@drawable/icon"></ImageView>
+			<TextView android:text="@string/application_name"
+					  android:textStyle="bold" android:layout_height="fill_parent"
+					  android:gravity="center_vertical" android:textSize="20sp" android:layout_width="fill_parent"
+					  android:layout_weight="1" android:textColor="#FFCF9A08"
+					  android:layout_marginLeft="10dip"></TextView>
+
+		</LinearLayout>
+		<EditText android:layout_height="wrap_content" android:id="@+id/editTextUser"
+				  android:layout_width="fill_parent" android:hint="@string/username"
+				  android:inputType="text"></EditText>
+		<EditText android:layout_height="wrap_content" android:id="@+id/editTextPassword"
+				  android:layout_width="fill_parent" android:inputType="textPassword"
+				  android:hint="@string/password"></EditText>
+		<CheckBox android:layout_width="wrap_content"
+				  android:layout_height="wrap_content" android:textColor="#FF333333"
+				  android:id="@+id/checkBoxRemember" android:text="@string/remember_me"></CheckBox>
+		<LinearLayout android:layout_height="wrap_content"
+					  android:orientation="horizontal" android:layout_width="fill_parent">
+			<Button android:layout_height="wrap_content" android:id="@+id/buttonOk"
+					android:layout_width="fill_parent"
+					android:layout_weight="1" android:text="@string/ok"></Button>
+			<Button android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:layout_weight="1"
+					android:text="@string/cancel" android:id="@+id/buttonCancel"></Button>
+		</LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

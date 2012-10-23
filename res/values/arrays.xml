@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="attach_variants">
+		<item>@string/insert_photo</item>
+		<item>@string/take_photo</item>
+	</string-array>
+	<string-array name="privacy_variants">
+		<item>@string/privacy_default</item>
+		<item>@string/privacy_public</item>
+		<item>@string/privacy_friends</item>
+		<item>@string/privacy_private</item>
+	</string-array>
+	<string-array name="photo_hostings">
+		<item>@string/imageshack_hosting</item>
+		<item>@string/livejournal_hosting</item>
+	</string-array>
+	<string-array name="photo_hostings_values">
+		<item>imageshack</item>
+		<item>livejournal</item>
+	</string-array>
+</resources>
