@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
-		 xmlns:qwad="http://schemas.android.com/apk/res/com.dotcypress.ljbeetle"
+		 xmlns:qwad="http://schemas.android.com/apk/res/com.dotcypress.dwbeetle"
 		 android:id="@android:id/tabhost" android:layout_width="fill_parent"
 		 android:layout_height="fill_parent">
 	<LinearLayout android:orientation="vertical"
@@ -13,13 +13,13 @@
 					 android:layout_weight="1">
 			<LinearLayout android:id="@+id/tab_1"
 						  android:layout_width="fill_parent" android:layout_height="fill_parent">
-				<com.dotcypress.ljbeetle.widget.EntryEditor
+				<com.dotcypress.dwbeetle.widget.EntryEditor
 						android:id="@+id/entryEditor" android:layout_width="fill_parent"
 						android:layout_height="fill_parent"/>
 			</LinearLayout>
 			<LinearLayout android:id="@+id/tab_2"
 						  android:layout_width="fill_parent" android:layout_height="fill_parent">
-				<com.dotcypress.ljbeetle.widget.EntryOptionsEditor
+				<com.dotcypress.dwbeetle.widget.EntryOptionsEditor
 						android:id="@+id/entryOptionsEditor" android:layout_width="fill_parent"
 						android:layout_height="fill_parent"/>
 			</LinearLayout>

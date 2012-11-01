@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <database name="lj_beetle" version="4">
-	<entity tableName="users" className="com.dotcypress.ljbeetle.model.User">
+	<entity tableName="users" className="com.dotcypress.dwbeetle.model.User">
 		<mapping columnName="userName" fieldName="userName" dataType="TEXT"/>
 		<mapping columnName="passwordHash" fieldName="passwordHash"
 				 dataType="TEXT"/>
 		<mapping columnName="defaultUserpicName" fieldName="defaultUserpicName"
 				 dataType="TEXT"/>
 	</entity>
-	<entity tableName="events" className="com.dotcypress.ljbeetle.model.Event">
+	<entity tableName="events" className="com.dotcypress.dwbeetle.model.Event">
 		<mapping columnName="timestamp" fieldName="timestamp"
 				 dataType="NUMERIC"/>
 		<mapping columnName="privacy" fieldName="privacy" dataType="INTEGER"/>
@@ -26,16 +26,16 @@
 		<mapping columnName="mood" fieldName="mood" dataType="TEXT"/>
 		<mapping columnName="music" fieldName="music" dataType="TEXT"/>
 	</entity>
-	<entity tableName="tags" className="com.dotcypress.ljbeetle.model.Tag">
+	<entity tableName="tags" className="com.dotcypress.dwbeetle.model.Tag">
 		<mapping columnName="journal" fieldName="journal" dataType="TEXT"/>
 		<mapping columnName="value" fieldName="value" dataType="TEXT"/>
 	</entity>
 	<entity tableName="accessedJournals"
-			className="com.dotcypress.ljbeetle.model.AccessedJournal">
+			className="com.dotcypress.dwbeetle.model.AccessedJournal">
 		<mapping columnName="journal" fieldName="journal" dataType="TEXT"/>
 		<mapping columnName="user" fieldName="user" dataType="TEXT"/>
 	</entity>
-	<entity tableName="userpics" className="com.dotcypress.ljbeetle.model.Userpic">
+	<entity tableName="userpics" className="com.dotcypress.dwbeetle.model.Userpic">
 		<mapping columnName="journal" fieldName="journal" dataType="TEXT"/>
 		<mapping columnName="name" fieldName="name" dataType="TEXT"/>
 		<mapping columnName="url" fieldName="url" dataType="TEXT"/>

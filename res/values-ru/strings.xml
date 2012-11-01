@@ -12,14 +12,14 @@
 	<string name="common_error">Ошибка сети.\nПроверьте подключение к сети.</string>
 	<string name="remember_me">Запомнить меня</string>
 	<string name="cancel">Отмена</string>
-	<string name="application_name">LJBeetle</string>
+	<string name="application_name">DwBeetle</string>
 	<string name="menu_about">О программе</string>
-	<string name="about_title">LJBeetle</string>
+	<string name="about_title">DwBeetle</string>
 	<string name="about_text">2010 © Виталий Домников\ndotcypress@gmail.com\n\nIcons by: Павел
 		Скрипкин\nhttp://skripkin.su/p/\n\n
 		Страница проекта:\nhttp://goo.gl/JysCe
 	</string>
-	<string name="login_title">LJBeetle — Вход</string>
+	<string name="login_title">DwBeetle — Вход</string>
 	<string name="preferences">Настройки</string>
 	<string name="entry">Запись</string>
 	<string name="entry_options">Настройки записи</string>
@@ -48,11 +48,11 @@
 	<string name="cant_locate">Невозможно определить ваше местоположение</string>
 	<string name="privacy_default">По умолчанию</string>
 	<string name="logout">Выход</string>
-	<string name="preference_title">LJBeetle — Настройки</string>
+	<string name="preference_title">DwBeetle — Настройки</string>
 	<string name="common_preferences">Основные</string>
 	<string name="enclosure">Подпись</string>
 	<string name="enable_enclosure">Добавлять подпись</string>
-	<string name="livejournal_hosting">LiveJournal</string>
+	<string name="livejournal_hosting">DreamWidth</string>
 	<string name="imageshack_hosting">ImageShack</string>
 	<string name="photohosting">Хостинг фотографий</string>
 	<string name="enclosure_value">Текст подписи</string>
