@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest package="com.dotcypress.dwbeetle" xmlns:android="http://schemas.android.com/apk/res/android"
-		  android:versionName="2.2" android:versionCode="22">
-	<application android:debuggable="false" android:hasCode="true"
-				 android:icon="@drawable/icon" android:label="@string/application_name"
-				 android:name="App">
-		<activity android:label="@string/application_name"
-				  android:name=".LoginActivity" android:theme="@android:style/Theme.Dialog">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN"/>
-				<category android:name="android.intent.category.LAUNCHER"/>
-			</intent-filter>
-		</activity>
-		<activity android:label="@string/application_name"
-				  android:name=".MainActivity" android:theme="@android:style/Theme.Black"/>
-		<activity android:label="@string/application_name"
-				  android:name=".FriendsActivity" android:theme="@android:style/Theme.Black"/>
-		<activity android:label="@string/about_title" android:name=".AboutActivity"
-				  android:theme="@android:style/Theme.Dialog"/>
-		<activity android:label="@string/preference_title"
-				  android:name=".ApplicationPreferenceActivity"/>
-		<activity android:name=".EditTextActivity" android:theme="@android:style/Theme.Dialog"/>
-		<activity android:name="EventReaderActivity"></activity>
-		<activity android:name=".LinkDialogActivity" android:theme="@android:style/Theme.Dialog"/>
-	</application>
-	<uses-sdk android:minSdkVersion="4"/>
-	<uses-permission android:name="android.permission.INTERNET"/>
-	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+          android:versionName="2.2" android:versionCode="22">
+  <application android:debuggable="false" android:hasCode="true"
+               android:icon="@drawable/icon" android:label="@string/application_name"
+               android:name="App">
+    <activity android:label="@string/application_name"
+              android:name=".LoginActivity" android:theme="@android:style/Theme.Dialog">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+
+    <activity android:label="@string/application_name"
+              android:name=".MainActivity" android:theme="@android:style/Theme.Black">
+
+      <intent-filter>
+        <action android:name="android.intent.action.SEND" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="text/plain" />
+      </intent-filter>
+
+    </activity>
+
+    <activity android:label="@string/application_name"
+              android:name=".FriendsActivity" android:theme="@android:style/Theme.Black"/>
+    <activity android:label="@string/about_title" android:name=".AboutActivity"
+              android:theme="@android:style/Theme.Dialog"/>
+    <activity android:label="@string/preference_title"
+              android:name=".ApplicationPreferenceActivity"/>
+    <activity android:name=".EditTextActivity" android:theme="@android:style/Theme.Dialog"/>
+    <activity android:name="EventReaderActivity"></activity>
+    <activity android:name=".LinkDialogActivity" android:theme="@android:style/Theme.Dialog"/>
+  </application>
+  <uses-sdk android:minSdkVersion="4"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 </manifest>
